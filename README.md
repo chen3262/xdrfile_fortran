@@ -1,6 +1,6 @@
 # xdrfile_fortran
 
-This is a Fortran code to read [GROMACS](http://www.gromacs.org/) trajectory files (.trr). This modified code is based on the original [XDR Fortran Interface](https://gist.github.com/wesbarnett/9728818) developed by James W. Barnett, which reads compressed trajectory files (.xtc). This code requires the [XTC Libray](http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library) installed on the local machine. It uses a fortran module, ISO_C_BINDING, to allow the Fortran program to access the C/C++ XTC Library. 
+This is a Fortran code to read [GROMACS](http://www.gromacs.org/) trajectory files (.trr). It uses a fortran module, ISO_C_BINDING, to allow the Fortran program to access the C/C++ XTC Library. This modified code is based on the original [XDR Fortran Interface](https://gist.github.com/wesbarnett/9728818) developed by James W. Barnett, which reads compressed trajectory files (.xtc). This code requires the [XTC Libray](http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library) installed on the local machine.
 
 ## Requirements
 [xdrfile](http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library)>=1.1.4 is required.
